@@ -19,17 +19,6 @@ import {
     serverTimestamp
 } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
-// Firebase configuration - Replace with your actual config
-const firebaseConfig = {
-    apiKey: "AIzaSyCmDL1ETG-BbMADT5fWqZmFA7nbCbB_D38",
-    authDomain: "campussync-c1dcd.firebaseapp.com",
-    projectId: "campussync-c1dcd",
-    storageBucket: "campussync-c1dcd.firebasestorage.app",
-    messagingSenderId: "426590324255",
-    appId: "1:426590324255:web:df1a14abae24f6e52b772a",
-    measurementId: "G-8FW6DF5P54"
-};
-
 
 // Check if Firebase config is still placeholder
 if (firebaseConfig.apiKey === "AIzaSyExample-replace-with-your-actual-api-key") {
